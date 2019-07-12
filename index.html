@@ -12,6 +12,9 @@
     <script>
         function jump() {
             alert("back minipro");
+            wx.miniProgram.navigateTo({
+                url: '/pages/room/index'
+            });
             //wx.miniProgram.getEnv(function(res) { console.log(res.miniprogram) })
         }
     </script>
